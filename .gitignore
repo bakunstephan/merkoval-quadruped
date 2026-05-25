@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+
+# Isaac Lab temp files
+*_tmp.usd
+*.usd.tmp
+
+# Logs
+logs/
+*.log
+
+# IDEs
+.idea/
+.vscode/
+.DS_Store
+
+# OS
+Thumbs.db
