@@ -35,7 +35,7 @@ merkoval-quadruped/
 ├── assets/              # GIFs and figures for the README
 ├── dissertation/        # Full MSc dissertation (PDF)
 ├── robot/               # URDF, USD, meshes, ROS package scaffolding
-├── policy/              # Trained checkpoints, ONNX export, training configs
+├── policy/              # Final policy (PyTorch + ONNX) and resolved training run configs
 └── isaaclab_task/       # Isaac Lab task package (environments, agents, scripts)
 ```
 
