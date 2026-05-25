@@ -29,12 +29,15 @@ The full baseline trot is also available on YouTube: [Robot general walk](https:
 ---
 
 ## Repository structure
+
+```
 merkoval-quadruped/
 ├── assets/              # GIFs and figures for the README
 ├── dissertation/        # Full MSc dissertation (PDF)
 ├── robot/               # URDF, USD, meshes, ROS package scaffolding
 ├── policy/              # Trained checkpoints, ONNX export, training configs
 └── isaaclab_task/       # Isaac Lab task package (environments, agents, scripts)
+```
 
 ### `robot/`
 Self-contained robot description, usable in Isaac Lab, Gazebo, RViz, MuJoCo, or any URDF-aware tool. Includes the SolidWorks-exported URDF, the full set of STL meshes, the per-link inventory CSV (raw SolidWorks export — final simulated values are overridden in Isaac Lab to match dissertation Table 1), and a catkin-ready ROS package scaffold.
